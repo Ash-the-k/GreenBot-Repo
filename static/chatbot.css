@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(213, 255, 249);
+    font-family: Arial, Verdana;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(213, 255, 250);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+
+header img{
+    height: 60px;
+    scale: 1.125;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#main {
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+    color: rgb(129, 170, 164);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#main ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 20px 0 0;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(213, 255, 249);
+    color: #001d3d;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+input {
+    height: 1px;
+    width: 750px;
+    border-radius: 40px;
+    margin: 10px;
+    flex-grow: 1;
+    color: #000;
+    font-size: 15px;
+    border: 1px solid black;
+    background: transparent;
+    padding-left: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    height: 43px;
+}
+
+.user-message {
+    color: rgb(18,93,0);
+    padding-left: 150px;
+    padding-right: 110px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+}
+
+.bot-message {
+    color: rgb(0,0,0);
+    padding-left: 150px;
+    padding-right: 110px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 255, 250);
+    border: 1px solid #6D8B74;
+    border-radius: 30px;
+    padding: 5px 10px;
+    width: 60%;
+    max-width: 1000px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.chat-icon {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.chat-input input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 30px;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search-btn img {
+    height: 24px;
+}
+
+.icon {
+    scale: 1.38;
+}
