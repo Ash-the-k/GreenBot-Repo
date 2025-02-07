@@ -1,7 +1,13 @@
 from flask import Flask, render_template, request, jsonify
-from chatbot import get_response, process_query
+import sys
+import os
 
-app = Flask(__name__)
+# Ensure root folder is in Python's import path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
+
+from chatbot import get_response, process_query  # Adjusted import
+
+app = Flask(__name__, template_folder="../templates", static_folder="../static")
 
 @app.route('/')
 def index():
