@@ -1,0 +1,50 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.pot
+*.pydevproject
+*.swp
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE Files
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Flask specific files
+instance/
+*.db
+*.sqlite3
+
+# Python distribution directories
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Tests
+test_*
+*_test.py
+
+# Pickle files (if you don't want to track the pickle files)
+saved_state/
+
+# Keras model files
+*.h5
